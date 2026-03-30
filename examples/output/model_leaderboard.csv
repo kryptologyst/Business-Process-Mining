@@ -1,0 +1,4 @@
+Model,Algorithm,Fitness,Precision,Generalization,Simplicity,Nodes,Edges,Complexity,Cyclomatic_Complexity,Model_Size,Composite_Score
+Simple Graph,Simple Transition Graph,0.0,0.0,0.0,0.0,5,5,1.0,2,10,0.0
+Simple Graph,Simple Transition Graph,0.0,0.0,0.0,0.0,5,5,1.0,2,10,0.0
+Simple Graph,Simple Transition Graph,0.0,0.0,0.0,0.0,5,5,1.0,2,10,0.0

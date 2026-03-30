@@ -1,0 +1,48 @@
+# Default configuration for Business Process Mining
+
+# Data generation settings
+data:
+  seed: 42
+  num_cases: 100
+  start_date: "2023-01-01"
+  end_date: "2023-12-31"
+  
+# Process discovery settings
+discovery:
+  algorithms:
+    - "simple_graph"
+    - "alpha_miner"
+    - "heuristics_miner"
+    - "inductive_miner"
+  
+  heuristics_miner:
+    dependency_threshold: 0.5
+    and_threshold: 0.1
+    loop_two_threshold: 0.5
+
+# Conformance checking settings
+conformance:
+  calculate_alignments: true
+  calculate_token_replay: true
+
+# Evaluation settings
+evaluation:
+  calculate_kpis: true
+  calculate_bottlenecks: true
+  calculate_resource_efficiency: true
+  create_leaderboard: true
+
+# Visualization settings
+visualization:
+  figsize: [12, 8]
+  style: "whitegrid"
+  save_plots: false
+  plot_format: "png"
+  dpi: 300
+
+# Output settings
+output:
+  save_results: true
+  results_dir: "results"
+  plots_dir: "assets/plots"
+  models_dir: "assets/models"
